@@ -11,11 +11,8 @@ body {
 }
 .background {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    background-image: url(fotos/WhatsApp\ Image\ 2024-07-15\ at\ 18.03.55.jpeg);
+    background-color: gray;
     background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 120vh;
 }
 header {
     display: flex;
