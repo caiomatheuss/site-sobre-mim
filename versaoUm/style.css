@@ -10,10 +10,11 @@ body {
     overflow: hidden;
 }
 .background {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background: url(fotos/wallpaper004.jpg);
     background-color: rgb(92, 77, 76);
     background-size: cover;
-    height: 120vh;
+    min-width: 100%;
+    min-height: 100vh;
 }
 header {
     display: flex;
@@ -34,7 +35,7 @@ header {
     color: white;
     font-size: 12px;
 }
-.cabeçalho-link a :hover{
+.cabeçalho-link a:hover{
     color: #2ecc71;
     transition: 0.3s all;
 }
@@ -63,7 +64,13 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.contato:hover {
+    background-color: #2ecc71;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn:hover {
     background-color: #2ecc71;
     color: #fff;
     transition: 0.5s;
@@ -74,6 +81,7 @@ button:hover {
 .text h3{
     color: #fff;
     font-size: 15px;
+    margin-top: 20px;
 }
 .text h1{
     color: #fff;
@@ -96,10 +104,4 @@ span {
 }
 .btn {
     margin-top: 10px;
-}
-.copy {
-    color: #fff;
-    margin-top: 300px;
-    text-align: center;
-    font-size: 12px;
 }
