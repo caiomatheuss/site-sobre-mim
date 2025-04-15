@@ -89,6 +89,7 @@ main > .content > .text > p {
     text-align: justify;
     font-size: 1.3em;
     line-height: 1.4;
+    font-family: "Montserrat", sans-serif;
 }
 
 main > .content > .text > h1 > strong {
