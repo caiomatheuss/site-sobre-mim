@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Special+Gothic+Expanded+One&display=swap');
 
 * {
     margin: 0;
@@ -14,7 +15,7 @@ body, html {
 }
 
 .cabecalho {
-    background-color: rgb(196, 192, 192);
+    background-color: rgba(196, 192, 192, 0.315);
 }
 
 .begin {
@@ -22,10 +23,13 @@ body, html {
 }
 
 .begin > h1 {
+    font-family: "Boldonse", system-ui;
     padding-top: 37px;
     display: block;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
+    
+
 }
 
 .lista {
@@ -56,4 +60,79 @@ body, html {
 .lista > li:hover {
     border: 1px red solid;
     transition: .5s;
+}
+
+main > .content {
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+}
+
+main > .content > .text {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 70vw;
+}
+
+main > .content > .text > h3 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+main > .content > .text > h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+main > .content > .text > p {
+    text-align: justify;
+    font-size: 1.3em;
+    line-height: 1.4;
+}
+
+main > .content > .text > h1 > strong {
+    color: red;
+}
+
+main > .content > .cv {
+    display: flex;
+    justify-content: center;
+    transform: translate(115px, 370px);
+    width: 40vw;
+    height: 40px;
+}
+
+main > .content > .cv > a {
+    color: red;
+    font-size: 1.2em;
+    width: 100%;
+    height: 100%;
+    border: 1px red solid;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > .content > .cv > a:hover {
+    background-color: red;
+    color: white;
+    transition: .5s;
+}
+
+main > footer {
+    width: 100vw;
+    background-color: rgba(128, 128, 128, 0.137);
+    height: 9.4vh;
+}
+
+main > footer > p {
+    font-size: .9em;
+    text-align: center;
+    transform: translateY(23px);
+    font-style: italic;
 }
